@@ -109,7 +109,7 @@
                 </div>
             </div>
         </header>
-        <!--$-->
+
         <main class="main">
             <section class="hero vh-100">
                 <img alt="" fetchPriority="high" decoding="async" data-nimg="fill" class="hero__img" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcSet="/_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=%2Fassets%2Fimages%2Fbg%2Fbg.jpg&amp;w=3840&amp;q=75"/>
@@ -169,7 +169,7 @@
                                                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
                                             </svg>
                                             <span>
-                                            <!-- -->
+                                            
                                             More About Me</span>
                                         </a>
                                     </div>
@@ -221,32 +221,32 @@
                                 <ul class="details__list ">
                                     <li class="details__list-item">
                                         <span class="details__list-label">Phone :</span>
-                                        <!-- -->
+                                        
                                         + 113-804-9098
                                     </li>
                                     <li class="details__list-item">
                                         <span class="details__list-label">Nationality :</span>
-                                        <!-- -->
+                                        
                                         British
                                     </li>
                                     <li class="details__list-item">
                                         <span class="details__list-label">skype :</span>
-                                        <!-- -->
+                                        
                                         mariam.wallas
                                     </li>
                                     <li class="details__list-item">
                                         <span class="details__list-label">Email :</span>
-                                        <!-- -->
+                                        
                                         contact@mariam.com
                                     </li>
                                     <li class="details__list-item">
                                         <span class="details__list-label">Address :</span>
-                                        <!-- -->
+                                        
                                         1000 Proctor St USA
                                     </li>
                                     <li class="details__list-item">
                                         <span class="details__list-label">Freelancer :</span>
-                                        <!-- -->
+                                        
                                         Available
                                     </li>
                                 </ul>
@@ -257,7 +257,7 @@
                                             <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
                                         </svg>
                                         <span>
-                                        <!-- -->
+                                        
                                         Download My CV</span>
                                     </a>
                                 </div>
@@ -304,7 +304,7 @@
                                                     <span class="timeline__item__place">Spotify</span>
                                                     <span class="dot"></span>
                                                     <span class="timeline__item__year">
-                                                    <!-- -->
+                                                    
                                                     2019 - Present</span>
                                                 </div>
                                             </div>
@@ -320,7 +320,7 @@
                                                     <span class="timeline__item__place">Spotify</span>
                                                     <span class="dot"></span>
                                                     <span class="timeline__item__year">
-                                                    <!-- -->
+                                                    
                                                     2017 - 2018</span>
                                                 </div>
                                             </div>
@@ -336,7 +336,7 @@
                                                     <span class="timeline__item__place">Spotify</span>
                                                     <span class="dot"></span>
                                                     <span class="timeline__item__year">
-                                                    <!-- -->
+                                                    
                                                     2015 - 2016</span>
                                                 </div>
                                             </div>
@@ -359,7 +359,7 @@
                                                     <span class="timeline__item__place">Paris University </span>
                                                     <span class="dot"></span>
                                                     <span class="timeline__item__year">
-                                                    <!-- -->
+                                                    
                                                     2015 - 2016</span>
                                                 </div>
                                             </div>
@@ -375,7 +375,7 @@
                                                     <span class="timeline__item__place">Paris University </span>
                                                     <span class="dot"></span>
                                                     <span class="timeline__item__year">
-                                                    <!-- -->
+                                                    
                                                     2015 - 2016</span>
                                                 </div>
                                             </div>
@@ -391,7 +391,7 @@
                                                     <span class="timeline__item__place">Paris University </span>
                                                     <span class="dot"></span>
                                                     <span class="timeline__item__year">
-                                                    <!-- -->
+                                                    
                                                     2015 - 2016</span>
                                                 </div>
                                             </div>
@@ -650,7 +650,7 @@
                         <div class="col-12">
                             <div class="section__readmore">
                                 For More Works Visit <a class="section__readmore-link" href="/projects">
-                                <!-- -->
+                                
                                 Our Projects</a>
                             </div>
                         </div>
@@ -783,7 +783,7 @@
                                                 <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"></path>
                                             </svg>
                                             <span>
-                                            <!-- -->
+                                            
                                             Send Message</span>
                                         </button>
                                     </div>
@@ -881,7 +881,7 @@
                 </div>
             </footer>
         </main>
-        <!--/$-->
+        
         <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
         <script>
             addEventListener("submit", function(a) {
