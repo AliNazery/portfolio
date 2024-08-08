@@ -132,13 +132,20 @@ export default function Hero() {
                     <TypewriterComponent />
                   </h1>
                   <p className="banner__desc  max-w-[450px] mt-5 mb-7 text-white !important">
-                    As a freelance designer and front-end developer, I
+                    {/* As a freelance designer and front-end developer, I
                     specialize in transforming your visions into captivating,
                     interactive websites.My distinctive combination of creative
                     vision and technical expertise guarantees that your online
-                    presence will make a memorable impression.
+                    presence will make a memorable impression. */}
+                    As a freelance designer and front-end developer, I transform
+                    visions into captivating websites. My unique blend of
+                    creativity and technical skills ensures your online presence
+                    stands out.
                   </p>
-                  <a href="#about" className="btn-default">
+                  <a
+                    href="#about"
+                    className="bg-white mb-24 text-[#ffb400] btn-default outline-none hover:bg-[#343a40] "
+                  >
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -154,23 +161,38 @@ export default function Hero() {
                         d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
                       ></path>
                     </svg>
-                    <span>More About Me</span>
+                    <span className="">More About Me</span>
+                    {/* hover:content-[''] hover:absolute hover:top-0 hover:left-0 hover:w-full hover:h-full hover:bg-[#343a40] -hover:z-10 hover:origin-center hover:rounded-[20px hover:transition-all hover:duration-300 hover:ease hover:scale-0] */}
                   </a>
                 </div>
               </div>
               <div className="hero__info">
-                <div className="info">
-                  <div className="info__item">
-                    <p className="info__label mb-0">Email:</p>
-                    <p className="info__value mb-0">contact@mariam.com</p>
+                <div className="info w-full flex">
+                  <div className="info__item pr-[30px]">
+                    <p className="info__label mb-0 text-white font-extrabold font-muli">
+                      Email:
+                    </p>
+                    <p className="info__value mb-0 text-white font-normal text-[15px]">
+                      alinazery@yahoo.com
+                    </p>
                   </div>
-                  <div className="info__item">
-                    <p className="info__label mb-0">Phone:</p>
-                    <p className="info__value mb-0">+113-804-9098</p>
+                  <div className="info__item pr-[30px]">
+                    <p className="info__label mb-0 text-white font-extrabold font-muli">
+                      Phone:
+                    </p>
+                    <p className="info__value mb-0 text-white font-normal text-[15px]">
+                      {/* +113-804-9098 */}
+                      +93 783740098
+                    </p>
                   </div>
-                  <div className="info__item">
-                    <p className="info__label mb-0">Location:</p>
-                    <p className="info__value mb-0">California ,USA</p>
+                  <div className="info__item pr-[30px]">
+                    <p className="info__label mb-0 text-white font-extrabold font-muli">
+                      Location:
+                    </p>
+                    <p className="info__value mb-0 text-white font-normal text-[15px]">
+                      {/* California ,USA */}
+                      Herat ,Afghanistan
+                    </p>
                   </div>
                 </div>
               </div>

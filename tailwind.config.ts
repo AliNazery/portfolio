@@ -18,7 +18,7 @@ const config: Config = {
       lg: "992px",
       // => @media (min-width: 1024px) { ... }
 
-      xl: "1199.98px",
+      xl: "1200px",
       // => @media (min-width: 1280px) { ... }
 
       "2xl": "1399.98px",
@@ -30,6 +30,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      zIndex: {
+        "-1": "-1",
+      },
       colors: {
         text1: "hsla(0, 0%, 100%, .8);",
       },
@@ -38,6 +41,17 @@ const config: Config = {
       h6: ["18px", { lineHeight: "1.4" }],
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("tailwindcss-pseudo-elements")({
+      customPseudoElements: ["after", "before"],
+      contentUtilities: true,
+      emptyContent: true,
+      classNameReplacer: {
+        after: "after",
+        before: "before",
+      },
+    }),
+  ],
 };
 export default config;

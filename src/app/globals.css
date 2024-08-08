@@ -27,3 +27,15 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
+body,
+p {
+    color: #454545;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.btn-default {
+    @apply cursor-pointer inline-flex text-center items-center whitespace-nowrap align-middle relative  leading-[24px] border-0 text-[16px] font-bold px-[16px] py-[10px] capitalize rounded-[20px] z-[1] gap-[4px] transition-all duration-300 ease-linear;
+}
