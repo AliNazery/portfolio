@@ -8,7 +8,7 @@ export default function About() {
     >
       <div className="container sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] px-3 mx-auto  w-full xl:max-w-[1170px]">
         <div
-          className="row flex flex-wrap -mx-3 transform-none opacity-100"
+          className="row flex flex-wrap -mx-3 transform-none opacity-100 translateZ(0)translate-y-[80px] translate-z-0"
           //   style="transform:translateX(0px) translateY(80px) translateZ(0)"
         >
           <div className="col-12 flex-none w-full max-w-full px-3">
@@ -26,10 +26,10 @@ export default function About() {
           </div>
         </div>
         <div
-          className="row transform-none opacity-100 flex flex-wrap -mx-3"
+          className="row transform-none opacity-100 flex flex-wrap -mx-3 translateZ(0)translate-y-[80px] translate-z-0"
           //   style="opacity:0;transform:translateY(80px) translateZ(0)"
         >
-          <div className=" mb-6 flex-none shrink-0 w-full max-w-full px-3 xl:flex-[0_0_auto] xl:w-[41.66666667%] ">
+          <div className=" mb-6 flex-none shrink-0 w-full max-w-full px-3 xl:flex-[0_0_auto] xl:w-[41.66666667%]">
             <div className="profile card card--img relative h-full p-0 mb-6">
               <img
                 alt=""
@@ -120,43 +120,61 @@ export default function About() {
           </div>
         </div>
         <div
-          className="row"
+          className="row transform-none opacity-100 flex flex-wrap -mx-3 translateZ(0)translate-y-[80px] translate-z-0 "
           //   style="opacity:0;transform:translateY(80px) translateZ(0)"
         >
-          <div className="col-xl-3 col-lg-6 col-md-6">
-            <div className="feature card card--light">
-              <h1 className="feature__number">+70</h1>
-              <p className="feature__text">Completed Projects</p>
+          <div className="w-full max-w-full px-3 xl:w-3/12 xl:flex-[0_0_auto] lg:w-6/12 lg:flex-[0_0_auto] md:w-6/12 md:flex-[0_0_auto]">
+            <div className="feature card card--light flex flex-row items-center gap-[6px] bg-[#f8f9fa] mb-6 p-[30px] rounded-[20px] border-none transition-all duration-500 ease-in">
+              <h1 className="feature__number text-2xl my-3 leading-tight text-[#ffb400] font-black font-sans">
+                +70
+              </h1>
+              <p className="feature__text text-[#152035] mb-1 capitalize font-bold text-base font-sans">
+                Completed Projects
+              </p>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-6 col-md-6">
-            <div className="feature card card--light">
-              <h1 className="feature__number">+50</h1>
-              <p className="feature__text">Happy Customers</p>
+          <div className="w-full max-w-full px-3 xl:w-3/12 xl:flex-[0_0_auto] lg:w-6/12 lg:flex-[0_0_auto] md:w-6/12 md:flex-[0_0_auto]">
+            <div className="feature card card--light flex flex-row items-center gap-[6px] bg-[#f8f9fa] mb-6 p-[30px] rounded-[20px] border-none transition-all duration-500 ease-in">
+              <h1 className="feature__number text-2xl my-3 leading-tight text-[#ffb400] font-black font-sans">
+                +50
+              </h1>
+              <p className="feature__text text-[#152035] mb-1 capitalize font-bold text-base font-sans">
+                Happy Customers
+              </p>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-6 col-md-6">
-            <div className="feature card card--light">
-              <h1 className="feature__number">+07</h1>
-              <p className="feature__text">Years of experience</p>
+          <div className="w-full max-w-full px-3 xl:w-3/12 xl:flex-[0_0_auto] lg:w-6/12 lg:flex-[0_0_auto] md:w-6/12 md:flex-[0_0_auto]">
+            <div className="feature card card--light flex flex-row items-center gap-[6px] bg-[#f8f9fa] mb-6 p-[30px] rounded-[20px] border-none transition-all duration-500 ease-in">
+              <h1 className="feature__number text-2xl my-3 leading-tight text-[#ffb400] font-black font-sans">
+                +07
+              </h1>
+              <p className="feature__text text-[#152035] mb-1 capitalize font-bold text-base font-sans">
+                Years of experience
+              </p>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-6 col-md-6">
-            <div className="feature card card--light">
-              <h1 className="feature__number">+15</h1>
-              <p className="feature__text">Awards won</p>
+          <div className="w-full max-w-full px-3 xl:w-3/12 xl:flex-[0_0_auto] lg:w-6/12 lg:flex-[0_0_auto] md:w-6/12 md:flex-[0_0_auto]">
+            <div className="feature card card--light flex flex-row items-center gap-[6px] bg-[#f8f9fa] mb-6 p-[30px] rounded-[20px] border-none transition-all duration-500 ease-in">
+              <h1 className="feature__number text-2xl my-3 leading-tight text-[#ffb400] font-black font-sans">
+                +15
+              </h1>
+              <p className="feature__text text-[#152035] mb-1 capitalize font-bold text-base font-sans">
+                Awards won
+              </p>
             </div>
           </div>
         </div>
         <div
-          className="row"
-          //   style="opacity:0;transform:translateY(80px) translateZ(0)"
+          className="row opacity-100 transform-none flex flex-wrap -mx-3 translateZ(0)translate-y-[80px] translate-z-0"
+          //   style="opacity:0;transform:translateY(80px) translateZ(0)translate-y-[80px] translate-z-0"
         >
-          <div className="col-lg-6">
-            <div className="timeline card card--light ">
-              <div className="timeline__single">
-                <h4 className="timeline__single__title">My Experience</h4>
-                <div className="timeline__item ">
+          <div className="col-lg-6 shrink-0 w-full max-w-full px-3 lg:w-1/2 lg:flex-[0_0_auto] ">
+            <div className="timeline card card--light flex flex-row bg-[#f8f9fa] gap-[24px] bg-[f8f9fa] mb-6 p-[30px] rounded-[20px] border-0 transition-all duration-500 ease-out">
+              <div className="timeline__single flex-[1_1]">
+                <h4 className="timeline__single__title mb-0 text-[24px] leading-[1.4] font-black text-[#152035]">
+                  My Experience
+                </h4>
+                <div className="timeline__item flex py-6 border-b border-[#eee] ">
                   <img
                     alt=""
                     loading="lazy"
@@ -164,31 +182,31 @@ export default function About() {
                     height="40"
                     decoding="async"
                     data-nimg="1"
-                    className="timeline__item__img"
+                    className="timeline__item__img rounded-[50%] bg-[#ffb400] max-w-full align-middle border-none w-[40px] h-[40px] "
                     // style="color:transparent"
-                    srcSet="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=96&amp;q=75 2x"
-                    src="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=96&amp;q=75"
+
+                    src="/images/experience/exp.png"
                   />
-                  <div className="timeline__item__content">
-                    <h6 className="timeline__item__title">
+                  <div className="timeline__item__content pl-[15px] flex flex-[1_1] gap-[6px] flex-col">
+                    <h6 className="timeline__item__title mb-0  text-[18px] capitalize">
                       Seinor UI/UX Desinger
                     </h6>
                     <div className="">
-                      <div className="timeline__item__info">
+                      <div className="timeline__item__info text-[12px] inline-flex font-bold gap-[6px] items-center text-[#152035] bg-[#fff] py-[1px] px-[10px] rounded-[20px]">
                         <span className="timeline__item__place">Spotify</span>
-                        <span className="dot"></span>
+                        <span className="dot mt-0 bg-[#ffb400!important] w-1 h-1 border block rounded-full"></span>
                         <span className="timeline__item__year">
                           2019 - Present
                         </span>
                       </div>
                     </div>
-                    <p className="timeline__item__desc">
+                    <p className="timeline__item__desc mb-0 text-[15px]">
                       Ludantium totam rem aperia meaque ipsa quae ab illo inven
                       tore veritatis et quasi architecto beatae vitae.
                     </p>
                   </div>
                 </div>
-                <div className="timeline__item ">
+                <div className="timeline__item flex py-6 border-b border-[#eee] ">
                   <img
                     alt=""
                     loading="lazy"
@@ -196,55 +214,57 @@ export default function About() {
                     height="40"
                     decoding="async"
                     data-nimg="1"
-                    className="timeline__item__img"
+                    className="timeline__item__img rounded-[50%] bg-[#ffb400] max-w-full align-middle border-none w-[40px] h-[40px] "
                     // style="color:transparent"
-                    srcSet="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=96&amp;q=75 2x"
-                    src="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=96&amp;q=75"
+
+                    src="/images/experience/exp.png"
                   />
-                  <div className="timeline__item__content">
-                    <h6 className="timeline__item__title">UI/UX Designer</h6>
-                    <div className="">
-                      <div className="timeline__item__info">
-                        <span className="timeline__item__place">Spotify</span>
-                        <span className="dot"></span>
-                        <span className="timeline__item__year">
-                          2017 - 2018
-                        </span>
-                      </div>
-                    </div>
-                    <p className="timeline__item__desc">
-                      Ludantium totam rem aperia meaque ipsa quae ab illo inven
-                      tore veritatis et quasi architecto beatae vitae.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline__item ">
-                  <img
-                    alt=""
-                    loading="lazy"
-                    width="40"
-                    height="40"
-                    decoding="async"
-                    data-nimg="1"
-                    className="timeline__item__img"
-                    // style="color:transparent"
-                    srcSet="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=96&amp;q=75 2x"
-                    src="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fexp.png&amp;w=96&amp;q=75"
-                  />
-                  <div className="timeline__item__content">
-                    <h6 className="timeline__item__title">
-                      Junior Visual Designer
+                  <div className="timeline__item__content pl-[15px] flex flex-[1_1] gap-[6px] flex-col">
+                    <h6 className="timeline__item__title mb-0  text-[18px] capitalize">
+                      Seinor UI/UX Desinger
                     </h6>
                     <div className="">
-                      <div className="timeline__item__info">
+                      <div className="timeline__item__info text-[12px] inline-flex font-bold gap-[6px] items-center text-[#152035] bg-[#fff] py-[1px] px-[10px] rounded-[20px]">
                         <span className="timeline__item__place">Spotify</span>
-                        <span className="dot"></span>
+                        <span className="dot mt-0 bg-[#ffb400!important] w-1 h-1 border block rounded-full"></span>
                         <span className="timeline__item__year">
-                          2015 - 2016
+                          2019 - Present
                         </span>
                       </div>
                     </div>
-                    <p className="timeline__item__desc">
+                    <p className="timeline__item__desc mb-0 text-[15px]">
+                      Ludantium totam rem aperia meaque ipsa quae ab illo inven
+                      tore veritatis et quasi architecto beatae vitae.
+                    </p>
+                  </div>
+                </div>
+                <div className="timeline__item flex py-6 border-b border-[#eee] ">
+                  <img
+                    alt=""
+                    loading="lazy"
+                    width="40"
+                    height="40"
+                    decoding="async"
+                    data-nimg="1"
+                    className="timeline__item__img rounded-[50%] bg-[#ffb400] max-w-full align-middle border-none w-[40px] h-[40px] "
+                    // style="color:transparent"
+
+                    src="/images/experience/exp.png"
+                  />
+                  <div className="timeline__item__content pl-[15px] flex flex-[1_1] gap-[6px] flex-col">
+                    <h6 className="timeline__item__title mb-0  text-[18px] capitalize">
+                      Seinor UI/UX Desinger
+                    </h6>
+                    <div className="">
+                      <div className="timeline__item__info text-[12px] inline-flex font-bold gap-[6px] items-center text-[#152035] bg-[#fff] py-[1px] px-[10px] rounded-[20px]">
+                        <span className="timeline__item__place">Spotify</span>
+                        <span className="dot mt-0 bg-[#ffb400!important] w-1 h-1 border block rounded-full"></span>
+                        <span className="timeline__item__year">
+                          2019 - Present
+                        </span>
+                      </div>
+                    </div>
+                    <p className="timeline__item__desc mb-0 text-[15px]">
                       Ludantium totam rem aperia meaque ipsa quae ab illo inven
                       tore veritatis et quasi architecto beatae vitae.
                     </p>
@@ -253,11 +273,13 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="timeline card card--light ">
-              <div className="timeline__single">
-                <h4 className="timeline__single__title">My Education</h4>
-                <div className="timeline__item ">
+          <div className="col-lg-6 shrink-0 w-full max-w-full px-3 lg:w-1/2 lg:flex-[0_0_auto] ">
+            <div className="timeline card card--light flex flex-row bg-[#f8f9fa] gap-[24px] bg-[f8f9fa] mb-6 p-[30px] rounded-[20px] border-0 transition-all duration-500 ease-out">
+              <div className="timeline__single flex-[1_1]">
+                <h4 className="timeline__single__title mb-0 text-[24px] leading-[1.4] font-black text-[#152035]">
+                  My Education
+                </h4>
+                <div className="timeline__item flex py-6 border-b border-[#eee] ">
                   <img
                     alt=""
                     loading="lazy"
@@ -265,33 +287,31 @@ export default function About() {
                     height="40"
                     decoding="async"
                     data-nimg="1"
-                    className="timeline__item__img"
+                    className="timeline__item__img rounded-[50%] bg-[#ffb400] max-w-full align-middle border-none w-[40px] h-[40px] "
                     // style="color:transparent"
-                    srcSet="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=96&amp;q=75 2x"
-                    src="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=96&amp;q=75"
+
+                    src="/images/education/edu.png"
                   />
-                  <div className="timeline__item__content">
-                    <h6 className="timeline__item__title">
-                      Engineering Degree
+                  <div className="timeline__item__content pl-[15px] flex flex-[1_1] gap-[6px] flex-col">
+                    <h6 className="timeline__item__title mb-0  text-[18px] capitalize">
+                      Seinor UI/UX Desinger
                     </h6>
                     <div className="">
-                      <div className="timeline__item__info">
-                        <span className="timeline__item__place">
-                          Paris University{" "}
-                        </span>
-                        <span className="dot"></span>
+                      <div className="timeline__item__info text-[12px] inline-flex font-bold gap-[6px] items-center text-[#152035] bg-[#fff] py-[1px] px-[10px] rounded-[20px]">
+                        <span className="timeline__item__place">Spotify</span>
+                        <span className="dot mt-0 bg-[#ffb400!important] w-1 h-1 border block rounded-full"></span>
                         <span className="timeline__item__year">
-                          2015 - 2016
+                          2019 - Present
                         </span>
                       </div>
                     </div>
-                    <p className="timeline__item__desc">
+                    <p className="timeline__item__desc mb-0 text-[15px]">
                       Ludantium totam rem aperia meaque ipsa quae ab illo inven
                       tore veritatis et quasi architecto beatae vitae.
                     </p>
                   </div>
                 </div>
-                <div className="timeline__item ">
+                <div className="timeline__item flex py-6 border-b border-[#eee] ">
                   <img
                     alt=""
                     loading="lazy"
@@ -299,33 +319,31 @@ export default function About() {
                     height="40"
                     decoding="async"
                     data-nimg="1"
-                    className="timeline__item__img"
+                    className="timeline__item__img rounded-[50%] bg-[#ffb400] max-w-full align-middle border-none w-[40px] h-[40px] "
                     // style="color:transparent"
-                    srcSet="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=96&amp;q=75 2x"
-                    src="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=96&amp;q=75"
+
+                    src="/images/education/edu.png"
                   />
-                  <div className="timeline__item__content">
-                    <h6 className="timeline__item__title">
-                      Engineering Degree
+                  <div className="timeline__item__content pl-[15px] flex flex-[1_1] gap-[6px] flex-col">
+                    <h6 className="timeline__item__title mb-0  text-[18px] capitalize">
+                      Seinor UI/UX Desinger
                     </h6>
                     <div className="">
-                      <div className="timeline__item__info">
-                        <span className="timeline__item__place">
-                          Paris University{" "}
-                        </span>
-                        <span className="dot"></span>
+                      <div className="timeline__item__info text-[12px] inline-flex font-bold gap-[6px] items-center text-[#152035] bg-[#fff] py-[1px] px-[10px] rounded-[20px]">
+                        <span className="timeline__item__place">Spotify</span>
+                        <span className="dot mt-0 bg-[#ffb400!important] w-1 h-1 border block rounded-full"></span>
                         <span className="timeline__item__year">
-                          2015 - 2016
+                          2019 - Present
                         </span>
                       </div>
                     </div>
-                    <p className="timeline__item__desc">
+                    <p className="timeline__item__desc mb-0 text-[15px]">
                       Ludantium totam rem aperia meaque ipsa quae ab illo inven
                       tore veritatis et quasi architecto beatae vitae.
                     </p>
                   </div>
                 </div>
-                <div className="timeline__item ">
+                <div className="timeline__item flex py-6 border-b border-[#eee] ">
                   <img
                     alt=""
                     loading="lazy"
@@ -333,27 +351,25 @@ export default function About() {
                     height="40"
                     decoding="async"
                     data-nimg="1"
-                    className="timeline__item__img"
+                    className="timeline__item__img rounded-[50%] bg-[#ffb400] max-w-full align-middle border-none w-[40px] h-[40px] "
                     // style="color:transparent"
-                    srcSet="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=96&amp;q=75 2x"
-                    src="/_next/image?url=%2Fassets%2Fimages%2Fabout%2Fedu.png&amp;w=96&amp;q=75"
+
+                    src="/images/education/edu.png"
                   />
-                  <div className="timeline__item__content">
-                    <h6 className="timeline__item__title">
-                      Engineering Degree
+                  <div className="timeline__item__content pl-[15px] flex flex-[1_1] gap-[6px] flex-col">
+                    <h6 className="timeline__item__title mb-0  text-[18px] capitalize">
+                      Seinor UI/UX Desinger
                     </h6>
                     <div className="">
-                      <div className="timeline__item__info">
-                        <span className="timeline__item__place">
-                          Paris University{" "}
-                        </span>
-                        <span className="dot"></span>
+                      <div className="timeline__item__info text-[12px] inline-flex font-bold gap-[6px] items-center text-[#152035] bg-[#fff] py-[1px] px-[10px] rounded-[20px]">
+                        <span className="timeline__item__place">Spotify</span>
+                        <span className="dot mt-0 bg-[#ffb400!important] w-1 h-1 border block rounded-full"></span>
                         <span className="timeline__item__year">
-                          2015 - 2016
+                          2019 - Present
                         </span>
                       </div>
                     </div>
-                    <p className="timeline__item__desc">
+                    <p className="timeline__item__desc mb-0 text-[15px]">
                       Ludantium totam rem aperia meaque ipsa quae ab illo inven
                       tore veritatis et quasi architecto beatae vitae.
                     </p>
