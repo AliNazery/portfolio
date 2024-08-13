@@ -8,7 +8,7 @@ export default function About() {
     >
       <div className="container sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] px-3 mx-auto  w-full xl:max-w-[1170px]">
         <div
-          className="row flex flex-wrap -mx-3 transform-none opacity-100 translateZ(0)translate-y-[80px] translate-z-0"
+          className="row flex flex-wrap -mx-3 transform-none opacity-100 translate-y-[80px] translate-z-0"
           //   style="transform:translateX(0px) translateY(80px) translateZ(0)"
         >
           <div className="col-12 flex-none w-full max-w-full px-3">

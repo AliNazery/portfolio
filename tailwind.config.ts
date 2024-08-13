@@ -36,6 +36,9 @@ const config: Config = {
       colors: {
         text1: "hsla(0, 0%, 100%, .8);",
       },
+      scale: {
+        "115": "1.15",
+      },
     },
     fontSize: {
       h6: ["18px", { lineHeight: "1.4" }],
