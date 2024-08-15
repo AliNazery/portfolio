@@ -39,6 +39,9 @@ const config: Config = {
       scale: {
         "115": "1.15",
       },
+      boxShadow: {
+        custom: "0 5px 20px 0 rgba(69, 67, 96, 0.1)",
+      },
     },
     fontSize: {
       h6: ["18px", { lineHeight: "1.4" }],

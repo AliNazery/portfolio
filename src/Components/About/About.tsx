@@ -1,4 +1,5 @@
 import React from "react";
+import SectionTitle from "../Common/Title/SectionTitle";
 
 export default function About() {
   return (
@@ -7,24 +8,10 @@ export default function About() {
       id="about"
     >
       <div className="container sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] px-3 mx-auto  w-full xl:max-w-[1170px]">
-        <div
-          className="row flex flex-wrap -mx-3 transform-none opacity-100 translate-y-[80px] translate-z-0"
-          //   style="transform:translateX(0px) translateY(80px) translateZ(0)"
-        >
-          <div className="col-12 flex-none w-full max-w-full px-3">
-            <div className="heading relative z-10 flex gap-[5px] mb-[50px] ">
-              <div className="heading__shape w-[22px] h-[22px] rounded-full border-2 border-[#152035] block relative mt-3 after:content-[''] after:absolute after:left-[-6px] after:top-[2px] after:w-[22px] after:h-[22px] after:rounded-full after:bg-[#ffb400] -z-10 after:box-border"></div>
-              <div className="heading__content flex-1">
-                <h2 className="capitalize mb-0 font-extrabold text-[32px]">
-                  About Me
-                </h2>
-                <p className="text-[#6c757d]">
-                  Main Informations About Me And What I Love To Do.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <SectionTitle
+          title="About Me"
+          subtitle="Main Informations About Me And What I Love To Do."
+        />
         <div
           className="row transform-none opacity-100 flex flex-wrap -mx-3 translateZ(0)translate-y-[80px] translate-z-0"
           //   style="opacity:0;transform:translateY(80px) translateZ(0)"

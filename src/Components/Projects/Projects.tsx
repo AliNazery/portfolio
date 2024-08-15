@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionTitle from '../Common/Title/SectionTitle';
 
 export default function Projects() {
   return (
@@ -7,24 +8,10 @@ export default function Projects() {
       id="projects"
     >
       <div className="container w-full px-3 mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
-        <div
-          className="row flex flex-wrap -mx-3 transform-none opacity-100 translate-y-[80px] translate-z-0"
-          //   style="transform:translateX(0px) translateY(80px) translateZ(0)"
-        >
-          <div className="col-12 flex-none w-full max-w-full px-3">
-            <div className="heading relative z-10 flex gap-[5px] mb-[50px] ">
-              <div className="heading__shape w-[22px] h-[22px] rounded-full border-2 border-[#152035] block relative mt-3 after:content-[''] after:absolute after:left-[-6px] after:top-[2px] after:w-[22px] after:h-[22px] after:rounded-full after:bg-[#ffb400] -z-10 after:box-border"></div>
-              <div className="heading__content flex-1">
-                <h2 className="capitalize mb-0 font-extrabold text-[32px]">
-                  My Projects
-                </h2>
-                <p className="text-[#6c757d]">
-                  A Latest Creative Works In Desing And Web
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <SectionTitle
+          title="My Projects"
+          subtitle="A Latest Creative Works In Design And Web "
+        />
         <div className="row project__items flex flex-wrap -mx-3">
           <div
             className="shrink-0 w-full max-w-full px-3 mt-0 xl:w-4/12 xl:flex-[0_0_auto]  lg:w-6/12 lg:flex-[0_0_auto] md:w-6/12 md:flex-[0_0_auto] transform-none opacity-100"
@@ -427,7 +414,10 @@ export default function Projects() {
           <div className="col-12 shrink-0 max-w-full w-full flex-[0_0_auto] px-3">
             <div className="section__readmore text-center mb-0 font-medium">
               For More Works Visit{" "}
-              <a className="section__readmore-link text-[#ffb400] outline-none bg-transparent transition-all duration-500 ease-in" href="/projects">
+              <a
+                className="section__readmore-link text-[#ffb400] outline-none bg-transparent transition-all duration-500 ease-in"
+                href="/projects"
+              >
                 Our Projects
               </a>
             </div>
