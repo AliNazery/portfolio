@@ -8,7 +8,8 @@ export default function Header() {
     <nav className="fixed top-0 left-0 h-full flex flex-col items-center justify-between py-6 bg-white dark:bg-[#121212] shadow-lg z-50 w-[90px]">
       {/* Logo at the Top */}
       <div className="">
-        <Image src="/path-to-logo.svg" alt="Logo" width={40} height={40} />
+        {/* <Image src="/path-to-logo.svg" alt="Logo" width={40} height={40} /> */}
+        <span className="w-[40px] h-[40px] font-black text-[22px]">A</span>
       </div>
 
       {/* Navigation Links */}

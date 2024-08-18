@@ -60,3 +60,9 @@ h6 {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+
+@layer utilities {
+    .appearance-button {
+        appearance: button;
+    }
+}
