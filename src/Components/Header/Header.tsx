@@ -9,7 +9,7 @@ export default function Header() {
       {/* Logo at the Top */}
       <div className="">
         {/* <Image src="/path-to-logo.svg" alt="Logo" width={40} height={40} /> */}
-        <span className="w-[40px] h-[40px] font-black text-[22px]">A</span>
+        <span className="w-[40px] h-[40px] font-black text-[22px] dark:text-[#d3d3d3]">A</span>
       </div>
 
       {/* Navigation Links */}

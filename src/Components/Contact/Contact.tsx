@@ -75,7 +75,7 @@ export default function Contact() {
                     id="message"
                     name="message"
                     placeholder="Enter your message here"
-                    rows={6}
+                    rows={5}
                     maxLength={1000}
                     required
                   />
@@ -108,9 +108,8 @@ export default function Contact() {
                 Let &#x27;s talk about everything!
               </h4>
               <p className="contact__info-desc mt-0 mb-4">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem
-                ipsum dolor sit amet, consectetuer adipiscing elit
+                Have a project or question? Contact me via email or use the form
+                below. I look forward to connecting!
               </p>
               <div className="contact__info-items">
                 <div className="contact__info-item mb-4 flex items-center gap-[10px]">
@@ -128,7 +127,7 @@ export default function Contact() {
                     </svg>
                   </span>
                   <span className="contact__info-item-value font-bold text-[16px]">
-                    +(684) 555-0102
+                    +(93) 7837-40098
                   </span>
                 </div>
                 <div className="contact__info-item mb-[16px] flex items-center gap-[10px]">
@@ -146,7 +145,7 @@ export default function Contact() {
                     </svg>
                   </span>
                   <span className="contact__info-item-value font-bold text-[16px]">
-                    mariamdemo@gmail.com
+                    alinazery.dev@gmail.com
                   </span>
                 </div>
                 <div className="contact__info-item mb-4 flex items-center gap-[10px]">
@@ -164,7 +163,7 @@ export default function Contact() {
                     </svg>
                   </span>
                   <span className="contact__info-item-value font-bold text-[16px]">
-                    241 Royal Mesa, New Jersey
+                    Herat, Herat Afghanistan
                   </span>
                 </div>
                 <div className="contact__info-item mb-0 flex items-center gap-[10px]">

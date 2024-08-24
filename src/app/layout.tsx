@@ -10,6 +10,17 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "@Ali Nazery",
   description: "Web developer, React Developer",
+  keywords: [
+    "React.js",
+    "Next.js",
+    "TailwindCSS",
+    "Redux Toolkit",
+    "TypeScript",
+    "Git",
+    "GitHub",
+    "Front-end Development",
+  ],
+  authors: [{ name: "Ali Nazery" }],
 };
 
 export default function RootLayout({
@@ -21,14 +32,16 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class">
-          <div className="flex h-screen">
-            {/* Sidebar */}
-            <SidebarHeader />
+          <div className="flex flex-col min-h-screen">
+            <div className="flex flex-1">
+              {/* Sidebar */}
+              <SidebarHeader />
 
-            {/* Main Content */}
-            <div className="flex-1 ml-16">{children}</div>
+              {/* Main Content */}
+              <div className="flex-1 ml-16">{children}</div>
+            </div>
+            <Footer />
           </div>
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
