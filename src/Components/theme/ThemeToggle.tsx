@@ -22,7 +22,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full shadow-md"
+      className="w-10 h-10 flex items-center justify-center bg-[#764b9b] dark:bg-[#44a56b] rounded-full shadow-md"
     >
       {theme === "light" ? (
       <DarkIcon/>

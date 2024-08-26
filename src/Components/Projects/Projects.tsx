@@ -7,7 +7,7 @@ import ProjectItem from "./ProjectItem";
 export default function Projects() {
   return (
     <section
-      className="project section section--white bg-[#fff] pt-[100px] pb-[76px] px-[30px]"
+      className="project section section--white bg-[#fff] dark:bg-[#232323] pt-[100px] pb-[76px] px-[30px]"
       id="projects"
     >
       <div className="container w-full px-3 mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">

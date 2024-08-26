@@ -34,11 +34,12 @@ export default function RootLayout({
         <ThemeProvider attribute="class">
           <div className="flex flex-col min-h-screen">
             <div className="flex flex-1">
-              {/* Sidebar */}
-              <SidebarHeader />
+              {/* Sidebar Header - Hidden on small screens */}
+              
+                <SidebarHeader />
 
               {/* Main Content */}
-              <div className="flex-1 ml-16">{children}</div>
+              <div className="flex-1 ml-0 lg:ml-16">{children}</div>
             </div>
             <Footer />
           </div>

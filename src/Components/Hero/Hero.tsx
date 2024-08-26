@@ -16,7 +16,7 @@ export default function Hero() {
         data-nimg="fill"
         className="hero__img absolute inset-0 h-full w-full text-transparent m-0 object-cover border-none max-w-full align-middle"
         sizes="100vw"
-        src="/images/bg.jpg"
+        src="/images/bg1.jpg"
       />
       <div className="container transform-none opacity-100 w-full mx-auto px-3">
         <div className="row -mx-3 mt-0 flex flex-wrap">
@@ -40,7 +40,7 @@ export default function Hero() {
                   </p>
                   <Link
                     href="#about"
-                    className="bg-white mb-24 text-[#ffb400] btn-default outline-none hover:bg-[#343a40] "
+                    className="bg-white mb-24 text-[#764b9b] btn-default outline-none hover:bg-[#343a40] "
                   >
                     <MoreAboutSvg />
                     <span className="">More About Me</span>

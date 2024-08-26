@@ -1,27 +1,27 @@
 // educationData.ts
 export const educationData = [
   {
-    title: "Seinor UI/UX Designer",
-    place: "Spotify",
-    year: "2019 - Present",
+    title: "Software Development",
+    place: "UoPeople University",
+    year: "2022 - Present",
     description:
-      "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.",
+      "Pursuing a Software Development degree at the University of the People, honing skills in coding, problem-solving, and modern software practices.",
     imgSrc: "/images/education/edu.png",
   },
   {
-    title: "Seinor UI/UX Designer",
-    place: "Spotify",
-    year: "2019 - Present",
+    title: "TOEFL 81 Score",
+    place: "TOEFL",
+    year: "2020 - 2022",
     description:
-      "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.",
+      "Achieved a competitive TOEFL score, demonstrating strong proficiency in English communication and comprehension skills.",
     imgSrc: "/images/education/edu.png",
   },
   {
-    title: "Seinor UI/UX Designer",
-    place: "Spotify",
-    year: "2019 - Present",
+    title: "UI/UX Designer",
+    place: "Coursera",
+    year: "2022 - 2023",
     description:
-      "Ludantium totam rem aperia meaque ipsa quae ab illo inven tore veritatis et quasi architecto beatae vitae.",
+      "Finished a UI/UX Design course on Coursera, mastering user-centered interface design.",
     imgSrc: "/images/education/edu.png",
   },
 ];
@@ -30,26 +30,26 @@ export const educationData = [
 export const experienceData = [
   {
     title: "Senior UI/UX Designer",
-    place: "Spotify",
-    year: "2019 - Present",
+    place: "iTex Services",
+    year: "2019 - 2021",
     description:
-      "Ludantium totam rem aperia meaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.",
+      "UI/UX Designer focused on creating intuitive, visually appealing interfaces that enhance user experiences and streamline digital interactions.",
     imgSrc: "/images/experience/exp.png",
   },
   {
-    title: "Senior UI/UX Designer",
-    place: "Spotify",
-    year: "2017 - 2019",
+    title: "Front-End-Developer",
+    place: "Freelancer",
+    year: "2020 - 2022",
     description:
-      "Ludantium totam rem aperia meaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.",
+      "Front-end Developer dedicated to building responsive, user-friendly websites with clean, efficient code and modern web technologies.",
     imgSrc: "/images/experience/exp.png",
   },
   {
-    title: "Junior UI/UX Designer",
-    place: "Spotify",
-    year: "2015 - 2017",
+    title: "Junior Nextjs Developer",
+    place: "Wama Solutions",
+    year: "2022 - Present",
     description:
-      "Ludantium totam rem aperia meaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.",
+      "Next.js Developer skilled in React and server-side rendering, focused on creating fast, scalable web applications",
     imgSrc: "/images/experience/exp.png",
   },
 ];
@@ -60,23 +60,23 @@ export const experienceData = [
 export const addressData = [
   {
     label: "Phone",
-    value: "+ 113-804-9098",
+    value: "+ 93-7837 40098",
   },
   {
     label: "Nationality",
-    value: "British",
+    value: "Afghan",
   },
-  {
-    label: "Skype",
-    value: "mariam.wallas",
-  },
+  // {
+  //   label: "",
+  //   value: "mariam.wallas",
+  // },
   {
     label: "Email",
-    value: "contact@mariam.com",
+    value: "alinazery.dev@gmail.com",
   },
   {
     label: "Address",
-    value: "1000 Proctor St USA",
+    value: "Herat",
   },
   {
     label: "Freelancer",

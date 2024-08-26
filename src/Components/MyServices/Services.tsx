@@ -6,7 +6,7 @@ import { ServiceData } from "./serviceData";
 const Services: React.FC = () => {
   return (
     <section
-      className="services section section--light bg-[#f8f9fa] pt-[100px] px-[30px] pb-[76px]"
+      className="services section section--light bg-[#f8f9fa] dark:bg-[#1D1D1D] pt-[100px] px-[30px] pb-[76px]"
       id="services"
     >
       <div className="container w-full px-3 mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
@@ -20,7 +20,7 @@ const Services: React.FC = () => {
               key={service.id}
               className="shrink-0 w-full max-w-full px-3 xl:w-4/12 xl:flex-[0_0_auto] lg:w-6/12 lg:flex-[0_0_auto] md:w-6/12 md:flex-[0_0_auto]"
             >
-              <div className="service card card--white text-center transition-all duration-700 ease-out bg-[#fff] mb-6 p-[30px] rounded-[20px] border-0">
+              <div className="service card card--white text-center transition-all duration-700 ease-out bg-[#fff] dark:bg-[#232323] mb-6 p-[30px] rounded-[20px] border-0">
                 <img
                   alt={service.title}
                   loading="lazy"
@@ -31,10 +31,10 @@ const Services: React.FC = () => {
                   src={service.imgSrc}
                 />
                 <div className="service__content">
-                  <h5 className="service__content__title mb-[15px] text-[20px]">
+                  <h5 className="service__content__title mb-[15px] text-[20px] dark:text-[#eeeded]">
                     {service.title}
                   </h5>
-                  <p className="service__content__desc">
+                  <p className="service__content__desc dark:text-[#eeebeb]">
                     {service.description}
                   </p>
                 </div>

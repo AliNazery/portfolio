@@ -1,15 +1,22 @@
 import React from "react";
 import Link from "next/link";
-import { FaceBookSvg } from "../Common/Icon/svg";
-import {TwitterSvg} from "../Common/Icon/svg";
+import { FaceBookSvg, LinkedInSvg } from "../Common/Icon/svg";
+// import {TwitterSvg} from "../Common/Icon/svg";
 import { InstagramSvg } from "../Common/Icon/svg";
 import {GithubSvg} from "../Common/Icon/svg";
 
 const socialMediaLinks = [
-  { href: "#", icon: <FaceBookSvg /> },
-  { href: "#", icon: <TwitterSvg /> },
-  { href: "#", icon: <InstagramSvg /> },
-  { href: "#", icon: <GithubSvg /> },
+  {
+    href: "https://www.facebook.com/profile.php?id=100067129211357",
+    icon: <FaceBookSvg />,
+  },
+  {
+    href: "https://www.linkedin.com/in/ali-nazery-8b6642205/",
+    icon: <LinkedInSvg />,
+  },
+  // { href: "#", icon: <TwitterSvg /> },
+  { href: "https://www.instagram.com/alinazery.dev/", icon: <InstagramSvg /> },
+  { href: "https://github.com/AliNazery", icon: <GithubSvg /> },
 ];
 
 const HeroSocialMedia = () => (
