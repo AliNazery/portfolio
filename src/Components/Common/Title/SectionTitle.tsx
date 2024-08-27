@@ -1,6 +1,9 @@
+interface sectionTitleProp {
+  title: string, 
+  subtitle: string
+}
 
-
-export default function SectionTitle({ title, subtitle }) {
+export default function SectionTitle({ title, subtitle }:sectionTitleProp) {
   return (
     <div className="row flex flex-wrap -mx-3 transform-none opacity-100 translate-y-[80px] translate-z-0 ">
       <div className="col-12 flex-none w-full max-w-full px-3">

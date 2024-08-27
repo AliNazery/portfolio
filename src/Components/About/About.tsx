@@ -47,7 +47,7 @@ export default function About() {
               <p className="mb-[25px] dark:text-[#eeebeb]">
                 As a Front-end Developer, I excel in creating responsive,
                 user-focused web experiences using modern technologies like
-                React.js, Next.js, and TailwindCSS. I'm passionate about
+                React.js, Next.js, and TailwindCSS. I&#x27;m passionate about
                 building designs that are both visually appealing and highly
                 functional. My goal is to deliver innovative solutions that meet
                 your business needs and bring your digital vision to life.
