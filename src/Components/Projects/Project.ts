@@ -1,8 +1,8 @@
 export const ProjectData = [
   {
-    title: "Cosmetic App",
-    subtitle: "Cosmetic Design React Template",
-    imageSrc: "/images/projects/1.jpg",
+    title: "My Portfolio",
+    subtitle: "Elegant, Responsive, Modern",
+    imageSrc: "/images/projects/portfolio1.PNG",
     link: "",
   },
   {
