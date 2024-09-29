@@ -7,6 +7,15 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    {
+      pattern: /^bg-/,
+      variants: ["hover", "focus"], // optional: specify variants like hover or focus
+    },
+    {
+      pattern: /^text-/,
+    },
+  ],
   theme: {
     screens: {
       sm: "576px",
